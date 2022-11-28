@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+
+
+   
+
+    <!-- This is for footer -->
+<style >
+
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+#more6 {display: none;}
+#more7 {display: none;}
+  
+
+
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer_1 {
+        max-width: 1170px;
+        margin: auto;
+    }
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    ul {
+        list-style: none;
+    }
+    .footer {
+        background-color: #ddd;
+        padding-top: 120px;
+        padding-bottom: 34px;
+    }
+    .footer_col {
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer_col h5{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid #aaa;
+        font-family: 'Mallory', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .footer_col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .footer_col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: 300;
+        transition: all 0.3 ease;
+    }
+    .footer_col ul li a:hover {
+        padding-left: 5px;
+        color: rgb(75, 75, 255);
+    }
+    .footer_col ul li a:active {
+        color: rgb(0, 0, 255);
+        font-size: 18px;
+    }
+    .all_rights_reserved {
+        text-align: center;
+        padding-top: 100px;
+        font-size: 15px;
+    }
+
+
+
+ 
+    /* footer End */
+
+
+
+
+
+    /* start header */
+    .header_1 {
+        background-color: #0b72b5;
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    } 
+    /* End Header */
+
+
+
+
+    /* Start Body */
+    .head_of_body {
+        width: 100%;
+        height: 2500px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .body_1 {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .box_title_1 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+        border-top: 1px solid #e0e4e6;
+        padding-top: 20px;
+    }
+    .title_1 {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Mallory', sans-serif;
+        margin-bottom: 20px;                            
+    }
+    .Reuters_1 {
+        font-size: 13px;
+        font-family: 'Mallory', sans-serif;
+    }
+    .body_2 {
+        width: 100%;
+        height: 1900px;
+        overflow: hidden;
+        justify-content: center;
+        background-color: none;
+    }
+
+    /* start-bert-css */
+    html {
+  box-sizing: border-box;
+}
+
+
+.column {
+  width: 10%!important;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+@media(max-width: 800px) {
+        .footer_col {
+            width: 50%;
+            margin-bottom: 40px;
+    }
+    }
+    
+    @media scrhween and (max-width: 650px) {
+  /* .column {
+    width: 100%;
+    display: block;
+  } */
+}
+@media only screen and (max-width: 600px) {
+  .column_group1{
+   flex-direction: column!important; 
+  }
+  .column_group2{
+   flex-direction: column!important; 
+  }
+  .column_group3{
+   flex-direction: column!important; 
+  }
+}
+    @media(max-width: 574px) {
+        .footer_col {
+            width: 100%;
+    }
+    }
+    @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  height: 200px;
+}
+
+.container::after, .row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+
+}
+
+.body_3a{
+  object-position: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+
+.prev{
+  text-align: center;
+  justify-content: center;
+}
+.next{
+  text-align: center;
+  justify-content: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #0b72b5;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: flex-start;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:#0b72b5;
+}
+
+.topnav a.active {
+  background-color: #0b72b5;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+ 
+
+    /* end-bert-css */
+
+    /* start-mark-css */
+
+    /* end-mark-css */
+
+    .conatiner{
+  max-width: 1200px;
+}
+
+.Heading1{
+  font-size:uppercase;
+}
+.sub_heading1{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.sub_heading2{
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+.sub_heading1 span{
+  color: red;
+  font-weight: 300;
+  border-right: 1px solid;
+  padding-right: 10px;
+
+}
+
+.head1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: none;
+}
+.fifa{
+  width: 100%;
+  padding: 10px
+}
+
+.list{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.list img{
+  width: 95%;
+  height: 88px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* .container2{
+  padding: 20px;
+} */
+
+
+/* Article */
+article > p {
+  font-size: 20px;
+   margin-bottom: 20px 10px;
+   padding: 20px;
+
+   columns: 4 20ch;
+   column-gap: 40px;
+   hyphens: auto;
+   width: 90%;
+   text-align: center;
+   text-align: justify;
+   flex-direction: row;
+
+
+}
+.home{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin: 20px;
+  width: 100%;
+}
+
+.home-img{
+  width: 80%;
+}
+.list0{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  margin: 10px;
+}
+
+
+.list-img{
+  width: 80%;
+  height: 80px;
+}
+
+.tatay{
+  width: 70%;
+}
+
+.content-left{
+  width: 30%;
+
+  
+}
+.h1{
+  font-size: 54px;
+  color: #133b4f;
+  text-transform: uppercase;
+
+}
+.h1 p{
+  font-size: 25px;
+  color: #133b4f;
+  text-transform: uppercase;
+}
+.nanay{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+
+.nanay-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+
+}
+.column p{
+  text-align: center;
+  text-transform: uppercase;
+  text-align: justify;
+  width: 100%;
+  hyphens:auto;
+  columns: 2 10ch;
+  justify-content: center;
+}
+
+.btag{
+  text-align: center;
+  width: 1000%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.btag1{
+  text-align: center;
+  width: 1000%;
+
+}
+.btag2{
+  text-align: center;
+  width: 1000%;
+}
+
+/* this is end of style section3 */
+
+
+</style>
+
+<!-- this is for header-->
+<section>
+<div class="topnav">
+  <a class="active" href="#home">About</a>
+  <a href="#news">Contact</a>
+  <a href="#contact">Search</a>
+  <div class="topnav-right">
+    <a href="#search">News</a>
+    <a href="#about">Home</a>
+  </div>
+</div>
+
+<div class="container1">
+  <header>
+    <h1 class="Heading1"> FIFAWORLDCUP NEWS</h1>
+    <div class="sub_heading1">
+      <p>Wednesday <span>November 22, 2022 </span></p>
+      <p class="sub_heading2"> Your Right to know</p>
+    </div>
+  </header>
+</section>
+ <!--This is End of-->
+
+
+
+   <!--This section 1-->
+<section>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/mark4.jpeg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/mark2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/mark1.jpg" style="width:100%">
+    <div class="text">FIFA WORLD CUP 2022</div>
+  </div>
+  
+   <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+   <a class="next" onclick="plusSlides(1)">❯</a> -->
+   
+  </div>
+
+  <br>
+ 
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div> 
+
+</section>
+<!--this is end of Section1-->
+
+
+  <!--Slide animation function-->
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+
+
+  </script>
+  <!--style for section1 design 2-->
+  <style>
+ 
+
+
+  </style>
+  <!--End -Slide animation function-->
+
+<!--This is start of section 1 design 2-->
+
+  <div class="container2">
+    <div class="head1">
+      <div class="left">
+        <img src="/images/mark1.jpg" width="70%" class="fifa">
+        
+        <h2 class="ber1">
+          Cristiano Ronaldo to leave Manchester United with immediate effect. read more...
+        </h2>
+      </div>
+
+      <div class="right1">
+        <space><h3 class="bert2"> Latest News</h3></space>
+        <br>
+          <space><p> <b></b>Morocco v Croatia<b></b></p></space>
+        <div class="list1">
+          <div class="list">
+            <img src="/images/b1.jpeg" alt="fifa">
+            <p><br>This blog is now closed, thanks for joining us. 
+              These were the updates on the Morocco vs Croatia World Cup 2022
+               read more...</p>
+          </div>
+
+       <h3 class="bert2"> Latest News</h3>
+          <br><p> Japan Vs Germany</p>
+        <div class="list1">
+          <div class="list">
+            <img src="/images/b2.jpg" alt="fifa">
+            <p> <br>Germany vs Japan FIFA World Cup 2022 Live: Offside Flag Denies Japan Opening Goal read more...</p>
+          </div>
+         
+          <h3 class="bert2"> Latest News</h3>
+          <space><p> <b></b>India vs  New Zealand<b></b></p></space>
+          <div class="list">
+            <img src="/images/b4.jpg" alt="fifa">
+            <p> <br>Rain-hit 3rd T20I ends in a tie, Indian team win the series 1-0. read more...</p>
+          </div>
+          
+          <h3 class="bert2"> Latest News</h3>
+          <space><p> <b></b>France vs Autralia<b></b></p></space>
+          <div class="list">
+            <img src="/images/b6.jpg" alt="fifa">
+            <p><br> Highlights and analysis of France's 4-1 win over Australia in Group D at World Cup 2022</p>
+          </div>
+             
+          <h3 class="bert2"> Latest News</h3>
+          <space><p> <b></b>Davey O'Brien<b></b></p></space>
+          <div class="list">
+            <img src="/images/7.png" alt="fifa">
+            <p> <br>Rattler Grabs Davey O'Brien National Quarterback of the Week Honors.</p>
+          </div>
+
+
+        </div>
+        </div>
+      </div>
+   </div>
+ 
+  
+<!--This is article-->
+<article>
+  <br>
+  <p>In a brief statement, United said the decision, which comes a week after Ronaldo gave an explosive TV interview about his frustrations at the club, was made by mutual agreement.
+
+    “The club thanks him for his immense contribution across two spells at Old Trafford, scoring 145 goals in 346 appearances, and wishes him and his family well for the future,” the statement said.
+    
+    “Everyone at Manchester United remains focused on continuing the team’s progress under Erik ten Hag and working together to deliver success on the pitch.”
+    
+    Ronaldo is currently with the Portugal national team in Qatar for the World Cup and said on Monday that the timing of his recent comments about United wouldn’t affect the concentration of his Portuguese teammates.
+    
+    In an interview with Piers Morgan for TalkTV released just before the start of the World Cup, Ronaldo explained how he felt United had betrayed him and that he has no respect for manager ten Hag."
+  </p>
+
+  <p> Ronaldo also issued the following statement:
+    "Following negotiations with Manchester United, we have agreed to terminate his contract early.
+    "I love Manchester United and I love the fans and that will never change.
+    "But for me, it seems like the right time to seek new challenges.
+    "I wish the team every success for the rest of the season and beyond.</p>
+
+    <p>
+      The 37-year-old Ronaldo will return to club Old He Trafford in the summer of 2021 after joining Real Madrid in 2009.
+    However, after scoring 24 goals in all competitions last season, he has made just five Premier League appearances this year under new manager Ten Hag, leaving a 2-2 draw against Tottenham, who will be replaced in October. After refusing to score with 0 wins, he received disciplinary action. The star was also 
+    left out of United's squad for the club's final game before the World Cup, when the club defeated Fulham, 
+    just hours before the first excerpt of his controversial interview was released
+</article>
+
+<!--this is section 3-->
+
+<div class="tatay">
+<div class="main">
+  <div class="home">
+    <div class="left0">
+      <img src="/images/g1.webp" width="1200">
+      <div class="content-left">
+      <h2 class="heading_2">
+        <h1>German football team players.</h1>
+       <p></p> silent protest - Cover mouths in team photo amid armband row.</p>
+      </h2>
+      </div>
+    </div>
+<div class="nanay">
+    <div class="right0">
+      <h3 class="heading_3">Latest news</h3>
+      <div class="lists">
+
+</div>
+
+<section>
+  <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+      <div class="btag0">
+        <img src="/images/b8.jpg" style="width:950%">
+      </div>
+      <div class="btag">
+        <p>Saudi Arabia fixed one of the greatest World Glass upsets by beating Lionel Messi’s Argentina 2-1 at Lusail Stadium in Qatar.</p>
+      </div>
+        <img src="/images/7.png" style="width:950%">
+      <div class="btag1">
+        <p>The Davey O'Brien Award, officially the Davey O'Brien National Quarterback Award, named after Davey O'Brien, is presented annually to the collegiate ...
+        </p>
+      </div>
+      <img src="/images/b5.jpg" style="width:950%">
+      <div class="btag2">
+        <p>Injured, admired, baffled, humbled: Watching Neymar, Mbappe, De Bruyne and Messi</p>
+      </div>
+    <!-- <img src="/images/b2.jpg" style="width:300%">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aspernatur!</p>
+    <img src="/images/b10.jpg" style="width:300%">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, placeat!</p> -->
+  </div>
+</section> 
+
+ </div>
+ 
+ 
+
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
+  
+
+
+      </div>
+</div>
+
+
+<!---this is end of section 3-->
+
+<article>
+  <br>
+  <p>Germany's players secured their mouths for their group photo some time recently their opening World Container coordinate in a censure of FIFA for its clampdown on seven teams' plans to wear armbands that were seen as a censure to have country Qatar's human rights record. The German group lined up within the conventional arrangement some time recently Wednesday’s amusement against Japan, and each of the 11 players secured their mouth with their right hand. "It was a sign from the group, from us, that FIFA is gagging us," Germany coach Hansi Flick said after his team's 2-1 misfortune to Japan. The motion was a reaction to FIFA's caution to the seven European leagues, counting Germany's, that players would be penalized in the event that they wore colourful "One Cherish" armbands as a image of incorporation and differing qualities. Germany captain Manuel Neuer and the other six group 
+    captains had arranged to wear the armbands for their opening diversions at the World Cup. 
+    Qatar has been beneath examination for its human rights record and laws criminalizing homosexuality just hours before the first excerpt of his controversial interview was released.</p>
+
+  <p> Football's governing body issued the warning Monday just hours before England and the Netherlands were set to play with their captains wearing the heart-shaped, multicoloured logo of the "One Love" campaign. FIFA said the players would immediately be shown a yellow card and could face further consequences.
+ Germany coach Hansi Flick and soccer federation president Bernd Neuendorf were among those to criticise FIFA's decision.
+ Neuendorf called the warning "another low blow" from FIFA. The governing body hasn't commented on Wednesday's gesture by the Germans.
+German Interior Minister Nancy Faeser, who is also responsible for sports, wore a "One Love" armband in the stands at the Germany-Japan game, where she was sitting beside FIFA president Gianni Infantino. Faeser tweeted a photo of herself wearing it with the hashtag #OneLove.
+News agency DPA reported Faeser had the armband on under a pink blazer that she took off during the first half.. fair hours some time recently the primary passage of his disputable meet was discharged</p>
+<p>
+  German Interior Minister Nancy Faeser, who is also responsible for sports, wore a “One Love” armband in the stands at the Germany game, where she was sitting beside FIFA president Gianni Infantino. Faeser posted a photo of herself on Twitter wearing it with the hashtag #OneLove.
+  News agency DPA reported that Faeser had the armband on under a pink blazer that she took off during the first half.
+  Earlier, Faeser criticized Qatar for forcing a German fan to remove a rainbow-colored armband and headband at another game.
+  This is not in line with my understanding of the security guarantees that I was given by the (Qatari) interior minister, Faeser said. “Security must apply to all people. I’m very disappointed about this.”
+  The rainbow flag is a widely used as a symbol of tolerance with regard to sexual diversity.
+  Faeser said “such symbols should be openly shown.
+</article>
+
+
+
+<!--THis is End of article-->
+
+    <!-- footer-start -->
+<footer class="footer">
+        <div class="footer_1">
+            <div class="row1">
+                <div class="footer_col">
+                    <h5>THE INQUIRER CHANNELS</h5>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Opinion</a></li>
+                        <li><a href="#">Global Nation</a></li>
+                        <li><a href="#">USA NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="footer_col">
+                    <h5>SERVICES</h5>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Email Us</a></li>
+                        <li><a href="#">Archive</a></li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Job Openings</a></li>
+                    </ul>
+                </div>
+                <div class="footer_col">
+                    <h5>THE INQUIRER COMPANY</h5>
+                    <ul>
+                        <li><a href="#">About INQUIRER.net</a></li>
+                        <li><a href="#">About the INQUIRER</a></li>
+                        <li><a href="#">User Agreement</a></li>
+                        <li><a href="#">Link Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Article Index</a></li>
+                    </ul>
+                </div>
+                <div class="footer_col">
+                    <h5>PARTNERS</h5>
+                    <ul>
+                        <li><a href="#">Libre</a></li>
+                        <li><a href="#">Hinge Inquirer</a></li>
+                        <li><a href="#">Bandera</a></li>
+                        <li><a href="#">Cebu Daily News</a></li>
+                        <li><a href="#">DZIQ990 AM</a></li>
+                        <li><a href="#">Motion Cars</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="all_rights_reserved">
+            © Copyright 1997-2022 INQUIRER.net | All Rights Reserved
+        </p>
+    </footer>
+    <!-- End footer -->
+
+    <script>
+      function myFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText
+      .innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      
+      function myFunction4() {
+        var dots = document.getElementById("dots4");
+        var moreText = document.getElementById("more4");
+        var btnText = document.getElementById("myBtn4");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      
+      function myFunction5() {
+        var dots = document.getElementById("dots5");
+        var moreText = document.getElementById("more5");
+        var btnText = document.getElementById("myBtn5");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      
+      function myFunction6() {
+        var dots = document.getElementById("dots6");
+        var moreText = document.getElementById("more6");
+        var btnText = document.getElementById("myBtn6");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      
+      function myFunction7() {
+        var dots = document.getElementById("dots7");
+        var moreText = document.getElementById("more7");
+        var btnText = document.getElementById("myBtn7");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+
+
+
+
+    
+</body>
+</html>
